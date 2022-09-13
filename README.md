@@ -9,14 +9,15 @@ https://www.elastic.co/kibana/
 All targets during testing were found on shodan.io:
 https://www.shodan.io/
 
-==Do not attack sites without permission==
+<b>Do not attack sites without permission!</b>
 
 Shodan dork:
 ```
 port:5601 kibana
 ```
 
-Search for public kibana vulnerabilities: `https://www.cvedetails.com/google-search-results.php?q=kibana&sa=Search`
+Search for public kibana vulnerabilities:
+`https://www.cvedetails.com/google-search-results.php?q=kibana&sa=Search`
 
 Tested on versions:
 ```
