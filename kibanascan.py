@@ -71,7 +71,6 @@ if __name__ == "__main__":
     except:
         usage()
 
-    target_is_host = True if os.system("ping -c 1 " + target + " >/dev/null 2>&1") == 0 else False
     if os.system("ping -c 1 " + target + " >/dev/null 2>&1") == 0:
         print(get_version(target, timeout))
 
